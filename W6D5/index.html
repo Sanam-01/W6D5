@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix home page</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <img class="px-3" src="Netflix-assets/assets/netflix_logo.png" alt="Bootstrap" width="150" height="50" />
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item list-group-item disabled">
+              <a class="nav-link active text-secondary" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#">TV Shows</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="#">Movies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="#">Recently Added</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary" href="#">My List</a>
+            </li>
+          </ul>
+          <div class="d-flex border-danger-2 align-items-center">
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#"><i class="bi bi-search"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary px-4" href="#">KIDS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#"><i class="bi bi-bell-fill"></i></a>
+            </li>
+            <li class="nav-item px-4">
+              <img id="kids_icon" src="Netflix-assets/assets/kids_icon.png" alt="kids-icon" />
+            </li>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--HERO SECTION-->
+    <section>
+      <div class="d-flex align-items-center">
+        <h1 class="display-4 fw-bold text-light">TV Shows</h1>
+        <hr class="my-5 px-2" />
+        <div class="dropdown">
+          <button class="dropdown-toggle fw-bold text-light py-2" type="button">Genres</button>
+        </div>
+      </div>
+    </section>
+
+    <!--MAIN TRENDING NOW-->
+    <main>
+      <h3 class="mb-4 text-white mt-3">Trending Now</h3>
+      <div class="row">
+        <div class="col-6 col-md-4 col-lg mb-4 px-0">
+          <div>
+            <img src="Netflix-assets/assets/media/media0.webp" class="card-img" alt="sherlock" />
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg mb-4 px-0">
+          <div>
+            <img src="Netflix-assets/assets/media/media1.jpg" class="card-img" alt="american-factory" />
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg mb-4 px-0">
+          <div>
+            <img src="Netflix-assets/assets/media/media2.webp" class="card-img" alt="the good place" />
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg mb-4 px-0">
+          <div>
+            <img src="Netflix-assets/assets/media/media3.webp" class="card-img" alt="genius of the modern world" />
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg mb-4 px-0">
+          <div>
+            <img src="Netflix-assets/assets/media/media4.jpg" class="card-img" alt="cuba and the cameraman" />
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg mb-4 px-0">
+          <div>
+            <img src="Netflix-assets/assets/media/media5.webp" class="card-img" alt="the china hustle" />
+          </div>
+        </div>
+      </div>
+
+      <!--MAIN WATCH IT AGAIN-->
+      <h3 class="mb-4 text-white mt-3">Watch it Again</h3>
+      <div class="row">
+        <div class="col-6 col-md-4 col-lg mb-4 px-0">
+          <div>
+            <img src="Netflix-assets/assets/media/media6.jpg" class="card-img" alt="the social dilemma" />
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg mb-4 px-0">
+          <div>
+            <img src="Netflix-assets/assets/media/media7.webp" class="card-img" alt="arog" />
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg mb-4 px-0">
+          <div>
+            <img src="Netflix-assets/assets/media/media8.webp" class="card-img" alt="vahsi bati" />
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg mb-4 px-0">
+          <div>
+            <img src="Netflix-assets/assets/media/media9.jpg" class="card-img" alt="connected" />
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg mb-4 px-0">
+          <div>
+            <img src="Netflix-assets/assets/media/media10.jpg" class="card-img" alt="spy" />
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg mb-4 px-0">
+          <div>
+            <img src="Netflix-assets/assets/media/media11.jpg" class="card-img" alt="the college admission challenge" />
+          </div>
+        </div>
+      </div>
+      <!--MAIN NEW RELEASES-->
+      <h3 class="mb-4 text-white mt-3">Trending Now</h3>
+      <div class="row">
+        <div class="col-6 col-md-4 col-lg mb-4 px-0">
+          <div>
+            <img src="Netflix-assets/assets/media/media12.jpg" class="card-img" alt="tribes of europa" />
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg mb-4 px-0">
+          <div>
+            <img src="Netflix-assets/assets/media/media13.jpg" class="card-img" alt="narcos" />
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg mb-4 px-0">
+          <div>
+            <img src="Netflix-assets/assets/media/media14.webp" class="card-img" alt="breaking bad" />
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg mb-4 px-0">
+          <div>
+            <img src="Netflix-assets/assets/media/media15.jpg" class="card-img" alt="explained" />
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg mb-4 px-0">
+          <div>
+            <img src="Netflix-assets/assets/media/media16.webp" class="card-img" alt="rick and morty" />
+          </div>
+        </div>
+        <div class="col-6 col-md-4 col-lg mb-4 px-0">
+          <div>
+            <img src="Netflix-assets/assets/media/media17.jpg" class="card-img" alt="the white helmets" />
+          </div>
+        </div>
+      </div>
+    </main>
+    <!--FOOTER-->
+    <footer class="mt-5">
+      <div class="d-flex justify-content-center align-text-top">
+        <div class="px-4">
+          <ul class="list-unstyled text-center">
+            <li>Audio and Subtitles</li>
+            <li>Media Center</li>
+            <li>Privacy</li>
+            <li>Contact us</li>
+            <li><button>Service code</button></li>
+          </ul>
+        </div>
+        <div class="px-4">
+          <ul class="list-unstyled text-center">
+            <li>Audio Description</li>
+            <li>Investor Relations</li>
+            <li>Legal Notices</li>
+          </ul>
+        </div>
+        <div class="px-4">
+          <ul class="list-unstyled text-center">
+            <li>Help Center</li>
+            <li>Jobs</li>
+            <li>Cookie Preferences</li>
+          </ul>
+        </div>
+        <div class="px-4">
+          <ul class="list-unstyled text-center">
+            <li>Gift Cards</li>
+            <li>Terms of Use</li>
+            <li>Corporate Information</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
